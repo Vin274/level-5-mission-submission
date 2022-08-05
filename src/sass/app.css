@@ -59,7 +59,7 @@
   z-index: 1;
   position: absolute;
   width: 100%;
-  height: 65%;
+  height: 60%;
   top: 0;
 }
 .app-container .app-img {
@@ -76,7 +76,7 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  padding-top: 110px;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -188,4 +188,4 @@
   .search-function {
     display: none;
   }
-}/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=app.css.map */
