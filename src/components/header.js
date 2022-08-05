@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-// import "../styles/header.css";
+import { useState } from "react";
 import "../sass/header.css";
 
 export default function Header({ clicked }) {

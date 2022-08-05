@@ -3,16 +3,13 @@ import Header from "./components/header";
 import Search from "./components/search";
 import Card from "./components/card";
 import { data } from "./data/data";
-// import "./App.css";
-import "./sass/global.css";
+import "./sass/app.css";
 
 function App() {
     const [selected, setSelected] = useState("Wizard Tower");
-    const [max, setMax] = useState("Wizard_Tower14.webp");
 
     const clicked = (e) => {
         setSelected(e.target.value);
-        setMax(e.target.id);
     };
 
     const backToTop = () => {
@@ -27,9 +24,6 @@ function App() {
             <Header clicked={clicked} />
             <div className="app-container">
                 <div className="app-top">
-                    {/* <div className="app-title">
-                        <p>{selected}</p>
-                    </div> */}
                     <div className="app-img-container">
                         <img
                             className="app-img"

@@ -1,4 +1,3 @@
-// import "../styles/search.css";
 import "../sass/search.css";
 
 export default function Search() {

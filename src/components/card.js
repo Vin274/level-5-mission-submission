@@ -1,4 +1,3 @@
-// import "../styles/card.css";
 import "../sass/card.css";
 
 export default function Card({ props }) {
@@ -16,7 +15,7 @@ export default function Card({ props }) {
                             height={150}
                         />
                         <p className="card-p">
-                            Cost to build: {value} is {cost}
+                            Cost to build: {value} is {cost} Gold
                         </p>
                     </figure>
                 </div>
