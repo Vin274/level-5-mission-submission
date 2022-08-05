@@ -1,0 +1,32 @@
+// Used to style buttons that are the same
+
+@import 'theme';
+
+%btn{
+    margin: 1%;
+    border-radius: 10px;
+    height: 2em;
+    width: 18em;
+    border: none;
+    @extend .font-style;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    &:hover{
+        background-color: $secondary-color;
+        cursor: pointer;
+        color: white
+    }
+}
+
+.header-btn{
+    @extend %btn;
+    background-color: $primary-color;
+    border: 3px solid $secondary-color;
+}
+
+.header-btn-selected{
+    @extend %btn;
+    color: white;
+    background-color: $secondary-color;
+}

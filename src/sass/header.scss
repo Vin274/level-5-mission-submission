@@ -1,0 +1,47 @@
+@import 'theme';
+@import 'buttons';
+
+.header-container{
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    .header-left {
+        z-index: 1000;
+        width: 50%;
+        margin-left: 2%;
+        display: flex;
+        color: white;
+    }
+    .header-img {
+        z-index: 1000;
+        align-self: center;
+        cursor: pointer;
+        margin: 1%;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .header-menu-btn {
+        display: none;
+        z-index: 1000;
+    }
+    .header-right{
+        z-index: 1000;
+        width: 50%;
+        align-self: center;
+        z-index: 1000;
+    }
+    .header-hide-menu{
+        width: 50%;
+        align-self: center;
+        z-index: 1000;
+    }
+    .header-btn-container{
+        z-index: 1000;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

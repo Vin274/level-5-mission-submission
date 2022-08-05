@@ -1,0 +1,59 @@
+@import 'theme';
+@import 'buttons';
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    background-color: $bg-color;
+    .app-top {
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        background-color: $bg-color;
+        
+    }
+    .app-title {
+        width: 40%;
+        z-index: 1000;
+        text-align: end;
+        align-self: center;
+        font-size: 65px;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: underline 3px;
+        @extend .font-style;
+        color: $secondary-color;
+    }
+    .app-img-container {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 58%;
+        top: 0;
+    }
+    .app-img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        object-fit: cover;
+        
+    }
+}
+    .app-bottom {
+        background-color: $bg-color;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .app-btt-btn {
+            display: none;
+        }
+    }
+
+
+
+// All media queries are in _media and imported below
+
+@import 'media';

@@ -1,0 +1,189 @@
+.font-style, .app-container .app-title, .header-btn-selected, .header-btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.font-style, .app-container .app-title, .header-btn-selected, .header-btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header-btn-selected, .header-btn {
+  margin: 1%;
+  border-radius: 10px;
+  height: 2em;
+  width: 18em;
+  border: none;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+.header-btn-selected:hover, .header-btn:hover {
+  background-color: rgb(111, 26, 7);
+  cursor: pointer;
+  color: white;
+}
+
+.header-btn {
+  background-color: rgb(175, 145, 100);
+  border: 3px solid rgb(111, 26, 7);
+}
+
+.header-btn-selected {
+  color: white;
+  background-color: rgb(111, 26, 7);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 243, 227);
+}
+.app-container .app-top {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(247, 243, 227);
+}
+.app-container .app-title {
+  width: 40%;
+  z-index: 1000;
+  text-align: end;
+  align-self: center;
+  font-size: 65px;
+  font-weight: 600;
+  font-style: italic;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  color: rgb(111, 26, 7);
+}
+.app-container .app-img-container {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 58%;
+  top: 0;
+}
+.app-container .app-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.app-bottom {
+  background-color: rgb(247, 243, 227);
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.app-bottom .app-btt-btn {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  .header-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
+    border-bottom: 3px solid rgb(111, 26, 7);
+  }
+  .header-container .header-left {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .header-container .header-menu-btn {
+    display: block;
+    align-self: center;
+  }
+  .header-container .header-right {
+    width: 96%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .header-container .header-hide-menu {
+    display: none;
+  }
+  .header-container .header-btn-container {
+    flex-direction: column;
+  }
+  .header-container .header-btn {
+    height: 50px;
+    width: 100%;
+    border: 3px solid rgb(111, 26, 7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+  }
+  .header-container .header-btn-selected {
+    height: 50px;
+    width: 100%;
+    border: 3px solid rgb(111, 26, 7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+  }
+  .card-main {
+    width: 100%;
+    align-self: center;
+    display: flex;
+  }
+  .app-container {
+    display: flex;
+    width: 100%;
+  }
+  .app-container .app-top {
+    flex-direction: column-reverse;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: rgb(247, 243, 227);
+  }
+  .app-container .app-title {
+    width: 100%;
+  }
+  .app-container .app-title p {
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .app-container .app-img-container {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .app-container .app-img {
+    display: none;
+  }
+  .app-bottom {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(247, 243, 227);
+    padding-top: 3%;
+  }
+  .app-bottom .app-btt-btn {
+    display: block;
+    margin: 1%;
+    background-color: rgb(111, 26, 7);
+    border-radius: 10px;
+    color: white;
+    height: 2em;
+    width: 12em;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border: 3px solid rgb(111, 26, 7);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+  }
+  .search-function {
+    display: none;
+  }
+}/*# sourceMappingURL=global.css.map */

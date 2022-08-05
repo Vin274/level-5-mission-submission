@@ -1,0 +1,130 @@
+.header-container{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    background-color: rgb(247, 243, 227);
+}
+
+.header-menu-btn{
+    display: none;
+}
+
+.header-left{
+    width: 50%;
+    margin-left: 2%;
+    display: flex;
+    color: white;
+}
+
+.header-img{
+    align-self: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1%;
+    border: 1px solid rgb(175, 145, 100);
+}
+
+.header-img:hover{
+    transform: scale(1.1);
+}
+
+.header-h5{
+    background-color: rgb(175, 145, 100);
+    width: 6em;
+    height: fit-content;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    align-self: center;
+}
+
+.header-h5:hover{
+    background-color: rgb(111, 26, 7);
+    cursor: pointer;
+}
+
+.header-right, .header-hide-menu{
+    width: 50%;
+    align-self: center;
+}
+
+.header-btn-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+}
+
+.header-btn{
+    margin: 1%;
+    background-color: rgb(175, 145, 100);
+    border: 3px solid rgb(111, 26, 7);
+    border-radius: 10px;
+    color: white;
+    height: 2em;
+    width: 12em;
+    border: none;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+.header-btn:hover{
+    background-color: rgb(111, 26, 7);
+    cursor: pointer;
+}
+
+.header-btn-selected{
+    margin: 1%;
+    background-color: rgb(111, 26, 7);
+    border-radius: 10px;
+    color: white;
+    height: 2em;
+    width: 12em;
+    border: none;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+@media screen and (max-width: 390px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        border-bottom: 3px solid rgb(111, 26, 7);
+    }
+    .header-btn-container{
+        flex-direction: column;
+        }
+    .header-left{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .header-h5{
+        display: none;
+    }
+    .header-menu-btn{
+        display: block;
+        align-self: center;
+    }
+    .header-right{
+        width: 96%;
+        height: fit-content
+    }
+    .header-btn, .header-btn-selected{
+        height: 50px;
+        width: 100%;
+        border: 3px solid rgb(111, 26, 7);
+        font-family: 'Times New Roman';
+        font-size: 24px;
+    }
+    .header-hide-menu{
+        display: none;
+    }
+    .card-main {
+        width: 100%;
+        align-self: center;
+        display: flex;
+    }
+}

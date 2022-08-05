@@ -1,0 +1,80 @@
+.font-style, .header-btn-selected, .header-btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.font-style, .header-btn-selected, .header-btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header-btn-selected, .header-btn {
+  margin: 1%;
+  border-radius: 10px;
+  height: 2em;
+  width: 18em;
+  border: none;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+.header-btn-selected:hover, .header-btn:hover {
+  background-color: rgb(111, 26, 7);
+  cursor: pointer;
+  color: white;
+}
+
+.header-btn {
+  background-color: rgb(175, 145, 100);
+  border: 3px solid rgb(111, 26, 7);
+}
+
+.header-btn-selected {
+  color: white;
+  background-color: rgb(111, 26, 7);
+}
+
+.header-container {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header-container .header-left {
+  z-index: 1000;
+  width: 50%;
+  margin-left: 2%;
+  display: flex;
+  color: white;
+}
+.header-container .header-img {
+  z-index: 1000;
+  align-self: center;
+  cursor: pointer;
+  margin: 1%;
+}
+.header-container .header-img:hover {
+  transform: scale(1.1);
+}
+.header-container .header-menu-btn {
+  display: none;
+  z-index: 1000;
+}
+.header-container .header-right {
+  z-index: 1000;
+  width: 50%;
+  align-self: center;
+  z-index: 1000;
+}
+.header-container .header-hide-menu {
+  width: 50%;
+  align-self: center;
+  z-index: 1000;
+}
+.header-container .header-btn-container {
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+}/*# sourceMappingURL=header.css.map */

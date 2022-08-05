@@ -1,0 +1,34 @@
+@import 'theme';
+
+.search-function {
+    text-align: center;
+    padding-bottom: 3%;
+    z-index: 1000;
+    .search-bar {
+        z-index: 1000;
+        border: 3px solid $secondary-color;
+        border-radius: 8px;
+        height: 30px;
+        width: 500px;
+        &:input{
+            font-size: 60px;
+        }
+    }
+}
+.search-submit{
+    z-index: 1000;
+    border: 3px solid $secondary-color;
+    border-radius: 8px;
+    color: $secondary-color;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    height: 38px;
+    width: 90px;
+    &:hover{
+        background-color: $secondary-color;
+        color: white;
+    }
+}
+
+
