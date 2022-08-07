@@ -85,9 +85,14 @@
   display: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @media screen and (max-width: 390px) {
   .header-container {
     position: static;
+    background-color: rgb(247, 243, 227);
     display: flex;
     flex-direction: column;
     height: -webkit-fit-content;
@@ -98,7 +103,6 @@
   }
   .header-container .header-left {
     display: flex;
-    justify-content: space-between;
     width: 90%;
   }
   .header-container .header-menu-btn {
@@ -106,7 +110,7 @@
     align-self: center;
   }
   .header-container .header-right {
-    width: 96%;
+    width: 90%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -115,21 +119,28 @@
     display: none;
   }
   .header-container .header-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     flex-direction: column;
+    padding-bottom: 20px;
   }
   .header-container .header-btn {
     height: 50px;
-    width: 100%;
+    width: 98%;
     border: 3px solid rgb(111, 26, 7);
     font-family: "Times New Roman", Times, serif;
     font-size: 24px;
   }
   .header-container .header-btn-selected {
     height: 50px;
-    width: 100%;
+    width: 98%;
     border: 3px solid rgb(111, 26, 7);
     font-family: "Times New Roman", Times, serif;
     font-size: 24px;
+  }
+  .card-container {
+    margin-bottom: 10px;
   }
   .card-main {
     width: 100%;
@@ -168,7 +179,7 @@
     padding-left: 5%;
     padding-right: 5%;
     background-color: rgb(247, 243, 227);
-    padding-top: 3%;
+    padding-top: 20px;
   }
   .app-bottom .app-btt-btn {
     display: block;

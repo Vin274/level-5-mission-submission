@@ -54,6 +54,11 @@
         }
     }
 
+// Hide scrollbar
+::-webkit-scrollbar {
+            display: none;
+        }
+
 
 
 // All media queries are in _media and imported below

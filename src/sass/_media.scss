@@ -4,6 +4,7 @@
 @media screen and (max-width: 390px){
     .header-container {
         position: static;
+        background-color: $bg-color;
         display: flex;
         flex-direction: column;
         height: fit-content;
@@ -11,7 +12,6 @@
         border-bottom: 3px solid $secondary-color;
         .header-left{
             display: flex;
-            justify-content: space-between;
             width: 90%;
         }
         .header-menu-btn{
@@ -19,31 +19,38 @@
             align-self: center;
         }
         .header-right{
-            width: 96%;
-            height: fit-content
+            width: 90%;
+            height: fit-content;
         }
         .header-hide-menu{
             display: none;
         }
         .header-btn-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
             flex-direction: column;
+            padding-bottom: 20px;
         }
         .header-btn{
             height: 50px;
-            width: 100%;
+            width: 98%;
             border: 3px solid $secondary-color;
             font-family: 'Times New Roman', Times, serif;
             font-size: 24px;
         }
         .header-btn-selected{
             height: 50px;
-            width: 100%;
+            width: 98%;
             border: 3px solid $secondary-color;
             font-family: 'Times New Roman', Times, serif;
             font-size: 24px;
         }
     }
 // Card
+.card-container{
+    margin-bottom: 10px;
+}
     .card-main {
         width: 100%;
         align-self: center;
@@ -80,7 +87,7 @@
         padding-left: 5%;
         padding-right: 5%;
         background-color: $bg-color;
-        padding-top: 3%;
+        padding-top: 20px;
         .app-btt-btn {
             display: block;
             margin: 1%;
